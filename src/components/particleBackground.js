@@ -2,12 +2,8 @@ import Particles from "react-tsparticles";
 
 const ParticleBackground = () => {
     return (
-        <div>
+        <>
         <Particles options={{
-            background: {
-                repeat: 'no-repeat',
-                size: 100
-            },
             fpsLimit: 60,
             interactivity: {
                 detectsOn: 'canvas',
@@ -61,7 +57,7 @@ const ParticleBackground = () => {
                 }
             }
         }} />
-      </div>
+      </>
     )
 }
 
